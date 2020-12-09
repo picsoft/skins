@@ -1,9 +1,9 @@
 # /bin/bash
 
-PREFIX_LINK="https://raw.githubusercontent.com/picsoft/skins/master/"
+PREFIX_LINK="http://134.209.73.81:81/?animation=walk&bgColor=D3D3D3&link=https://raw.githubusercontent.com/picsoft/skins/master/"
 I=1
 
-for skin in *
+for skin in *.png
 do
    echo "{";
    echo "  id: $I,"
